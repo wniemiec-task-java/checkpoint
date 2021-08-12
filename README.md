@@ -78,23 +78,23 @@ while (true) {
 Process one
 
 $ java CheckpointExample
-$ Trying to access piece of code...
-$ Piece of code executed for the first time
-$ ...
+Trying to access piece of code...
+Piece of code executed for the first time
+...
 ```
 
 ```
 Process two
 
 $ java CheckpointExample
-$ Trying to access piece of code...
-$ Piece of code already executed
-$ ...
+Trying to access piece of code...
+Piece of code already executed
+...
 ```
 
 ## 📖 Documentation
 |        Property        |Parameter type|Return type|Description|Default parameter value|
-|----------------|-------------------------------|-----------------------------|--------|
+|----------------|-------------------------------|------|-----------------------|--------|
 |enable |`void`|`void`|Starts a new checkpoint| - |
 |disable |`void`|`void`|Disables checkpoint| - |
 |exists |`void`|`boolean`|Checks if a checkpoint was created.| - |
